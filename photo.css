@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.cake{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  flex-direction: column;
+}
+.cake img{
+    width:100%;
+    max-width: 350px;
+    height: 300px;
+   
+}
