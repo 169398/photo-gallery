@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+}
 .cake{
   max-width: 1400px;
   margin: 0 auto;
@@ -11,5 +14,14 @@
     width:100%;
     max-width: 350px;
     height: 300px;
-   
+    object-fit: cover;
+   border-radius: 20px;
+}
+header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 28px;
+    background-color: #0c1022;
+    color:azure
+    
 }
